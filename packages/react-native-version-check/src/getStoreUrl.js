@@ -1,7 +1,7 @@
 // @flow
 import { Platform } from 'react-native';
-import isNil from 'lodash.isnil';
 import { getVersionInfo } from './versionInfo';
+import isNil from 'lodash/isNil';
 
 export type GetAppStoreUrlOption = {
   country?: string,
